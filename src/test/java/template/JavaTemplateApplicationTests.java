@@ -1,13 +1,13 @@
 package template;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import camp.nextstep.edu.missionutils.test.NsTest;
 
-@SpringBootTest
-class JavaTemplateApplicationTests {
 
-    @Test
-    void contextLoads() {
+class JavaTemplateApplicationTests extends NsTest {
+
+
+    @Override
+    protected void runMain() {
+        JavaTemplateApplication.main(new String[]{});
     }
-
 }
